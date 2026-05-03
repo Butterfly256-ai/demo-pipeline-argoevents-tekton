@@ -10,7 +10,7 @@ spec:
   source:
     path: vclusters/vcluster1/vcluster1-patch
     repoURL: https://github.com/lanbingcloud/demo-pipeline-argoevents-tekton.git
-    targetRevision: HEAD
+    targetRevision: main
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:

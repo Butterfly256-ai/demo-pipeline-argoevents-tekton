@@ -10,7 +10,7 @@ spec:
   source:
     path: runtimes/pipeline1-runtime/production
     repoURL: https://github.com/lanbingcloud/demo-pipeline-argoevents-tekton.git
-    targetRevision: HEAD
+    targetRevision: main
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd

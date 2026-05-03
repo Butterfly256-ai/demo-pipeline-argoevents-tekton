@@ -10,7 +10,7 @@ spec:
   source:
     path: user-namespaces
     repoURL: https://github.com/lanbingcloud/demo-pipeline-argoevents-tekton.git
-    targetRevision: HEAD
+    targetRevision: main
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:

@@ -15,7 +15,7 @@ spec:
       project: demo-vcluster
       source:
         repoURL: https://github.com/lanbingcloud/demo-pipeline-argoevents-tekton.git
-        targetRevision: HEAD
+        targetRevision: main
         path: vclusters/{{cluster}}
       destination:
         server: https://kubernetes.default.svc
