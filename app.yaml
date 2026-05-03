@@ -9,7 +9,7 @@ spec:
   project: demo-vcluster
   source:
     path: production
-    repoURL: https://github.com/lanbingcloud/demo-pipeline-argoevents-tekton.git
+    repoURL: https://github.com/Butterfly256-ai/demo-pipeline-argoevents-tekton.git
     targetRevision: main  
   destination:
     server: https://kubernetes.default.svc
